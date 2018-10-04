@@ -1,0 +1,31 @@
+{
+  "name": "nikmartin.github.io",
+  "version": "1.0.0",
+  "description": "Nik Martin's Github CV",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikmartin/nikmartin.github.io.git"
+  },
+  "keywords": [
+    "Nik Martin",
+    "CV",
+    "Resume",
+    "Github"
+  ],
+  "author": "Nik Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikmartin/nikmartin.github.io/issues"
+  },
+  "homepage": "https://github.com/nikmartin/nikmartin.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "3.10.0",
+    "gulp-header": "2.0.5",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.1",
+    "gulp-uglify": "3.0.1"
+  }
+}
