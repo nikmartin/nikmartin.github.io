@@ -1,6 +1,7 @@
 {
   "name": "nikmartin.github.io",
-  "version": "1.0.0",
+  "title": "Nik Martin's online CV",
+  "version": "1.0.1",
   "description": "Nik Martin's Github CV",
   "repository": {
     "type": "git",
