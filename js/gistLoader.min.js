@@ -1,6 +1,6 @@
 /*!
- * Nik Martin's online CV v1.0.1 (https://github.com/nikmartin/nikmartin.github.io#readme)
- * Copyright 2013-2018 Nik Martin
+ * Nik Martin's online CV v1.0.2 (https://github.com/nikmartin/nikmartin.github.io#readme)
+ * Copyright 2013-2020 Nik Martin
  * Licensed under MIT 
  */
 
