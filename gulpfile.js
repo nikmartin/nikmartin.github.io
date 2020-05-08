@@ -32,7 +32,6 @@ gulp.task('css:compile', () => {
     )
     .pipe(
       autoprefixer({
-        browsers: ['last 2 versions'],
         cascade: false,
       })
     )
@@ -97,7 +96,8 @@ gulp.task('browserSync', function () {
 
 // Dev task
 gulp.task('dev', gulp.series('css', 'js', 'browserSync', function () {
-  gulp.watch('./scss/*.scss', ['css']);
+  gulp.watch('./scss/**/*.scss', {usePolling:true}, ['css']);
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
+  gulp.watch('./css/*.css', browserSync.reload);
 }));

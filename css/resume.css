@@ -99,19 +99,12 @@ p.lead {
     position: fixed;
     top: 0;
     left: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 17rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
@@ -122,22 +115,13 @@ p.lead {
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
     align-items: flex-start;
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
   }
   #sideNav .navbar-collapse .navbar-nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
   }
@@ -150,8 +134,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
   max-width: 75rem;
 }
 
@@ -189,4 +173,36 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 5.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6rem;
+  }
 }
